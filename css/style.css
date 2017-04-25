@@ -1,0 +1,24 @@
+html,
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #464646;
+}
+
+.title-catalog h1 {
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 47px;
+  line-height: 120%;
+  font-weight: 700;
+  color: #000000;
+}
+
+.items-name h2 {
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 700;
+  color: #000000;
+}
