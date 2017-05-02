@@ -1,3 +1,46 @@
+/*==================================== FONTS ===========================================*/
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans'),
+       local('Open-Sans'),
+       url('opensans.woff2') format('woff2'),
+       url('opensans.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans Light'),
+       local('Open-Sans-Light'),
+       url('opensanslight.woff2') format('woff2'),
+       url('opensanslight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy Light'),
+       local('Gilroy-Light'),
+       url('gilroylight.woff2') format('woff2'),
+       url('gilroylight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy ExtraBold'),
+       local('Gilroy-ExtraBold'),
+       url('gilroyextrabold.woff2') format('woff2'),
+       url('gilroyextrabold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+/*====/FONTS ====*/
+
 html,
 body {
   min-width: 1440px;
@@ -110,6 +153,8 @@ input[type="radio"] {
 
 .navigation-item--submenu:hover .navigation-sublist,
 .navigation-item--submenu:active .navigation-sublist{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -193,15 +238,21 @@ input[type="radio"] {
 }
 
 .footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 1160px;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .user-menu-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 1160px;
-  flex-shrink: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .user-cart  {
@@ -210,16 +261,24 @@ input[type="radio"] {
 }
 
 .contacts-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 1160px;
-  flex-shrink: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .social-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 1160px;
-  flex-shrink: 0;
-  justify-content: flex-end;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .social-footer-list {
@@ -404,9 +463,12 @@ input[type="radio"] {
 
 .breadcrumbs {
   margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .breadcrumbs-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   margin: 0;
@@ -416,6 +478,8 @@ input[type="radio"] {
 }
 
 .inner-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 1440px;
   margin: 0 auto;
@@ -427,6 +491,7 @@ input[type="radio"] {
 
 .filter {
   width: 468px;
+  background-image: -webkit-linear-gradient(top, #dbdbdb 69px, #efefef 19px);
   background-image: linear-gradient(to bottom, #dbdbdb 69px, #efefef 19px);
 }
 
@@ -477,14 +542,19 @@ input[type="radio"] {
 }
 
 .filter-color-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   margin: 0;
   margin-top: 15px;
   padding: 0;
-  flex-wrap: wrap;
-  flex-shrink: 0;
-  align-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
   list-style: none;
 }
 
@@ -498,14 +568,19 @@ input[type="radio"] {
 }
 
 .filter-bluetooth-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   margin: 0;
   margin-top: 15px;
   padding: 0;
-  flex-wrap: wrap;
-  flex-shrink: 0;
-  align-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
   list-style: none;
 }
 
@@ -525,6 +600,7 @@ input[type="radio"] {
 
 .content-catalog {
   width: 972px;
+  background-image: -webkit-linear-gradient(top, #ebebeb 69px, #ffffff 19px);
   background-image: linear-gradient(to bottom, #ebebeb 69px, #ffffff 19px);
 }
 
@@ -539,9 +615,13 @@ input[type="radio"] {
 /*=============== SORTING =================*/
 
 .sorting {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  align-items: baseline;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .sorting-title {
@@ -556,6 +636,8 @@ input[type="radio"] {
 }
 
 .sorting-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 285px;
   margin: 0;
@@ -566,11 +648,20 @@ input[type="radio"] {
 }
 
 .sorting-sign {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  width: 65px;
+  max-width: 65px;
   margin: 0;
   padding: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   list-style: none;
+}
+
+.sorting-sign li {
+  width: 20px;
 }
 
 
@@ -585,13 +676,18 @@ input[type="radio"] {
 }
 
 .shop-items-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   margin: 0;
   padding: 0;
-  flex-wrap: wrap;
-  flex-shrink: 0;
-  align-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
   list-style: none;
 }
 
@@ -612,6 +708,8 @@ input[type="radio"] {
 }
 
 .shop-items-list li:hover .items-add {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -620,11 +718,17 @@ input[type="radio"] {
 }
 
 .items-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   margin-top: 35px;
-  justify-content: space-between;
-  align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .items-name {
@@ -656,8 +760,10 @@ input[type="radio"] {
   display: none;
   width: 360px;
   height: 380px;
-  flex-wrap: wrap;
-  align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
   background: rgba(243, 243, 243, 0.7);
 }
 
@@ -677,6 +783,8 @@ input[type="radio"] {
 }
 
 .pagination-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   margin: 0;
