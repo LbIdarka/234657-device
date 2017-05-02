@@ -16,22 +16,6 @@ body {
   padding: 0 10px;
 }
 
-.title-catalog h1 {
-  font-family: "Gilroy", Arial, sans-serif;
-  font-size: 47px;
-  line-height: 120%;
-  font-weight: 700;
-  color: #000000;
-}
-
-.items-name h2 {
-  font-family: "Gilroy", Arial, sans-serif;
-  font-size: 18px;
-  line-height: 120%;
-  font-weight: 700;
-  color: #000000;
-}
-
 input[type="radio"] {
   display: none;
 }
@@ -113,6 +97,58 @@ input[type="radio"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 170px;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.navigation-item--submenu {
+  position: relative;
+}
+
+.navigation-item--submenu:hover .navigation-sublist,
+.navigation-item--submenu:active .navigation-sublist{
+  display: flex;
+}
+
+.navigation-sublist {
+  position: absolute;
+  left: -60px;
+  display: none;
+  width: 1160px;
+  margin: 0;
+  padding: 0;
+  padding-top: 23px;
+  padding-bottom: 28px;
+  z-index: 15;
+  background: #f7e296;
+}
+
+.sublist-item {
+  display: inline-block;
+  width: 180px;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.sublist-item:nth-child(2) {
+  margin-right: 20px;
+  margin-left: 60px;
+}
+
+.sublist-item a {
+  width: 100%;
+  display: block;
+  margin: 0;
+  font-family: "Open Sans Light", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #000000;
+  text-decoration: none;
 }
 
 
@@ -334,3 +370,333 @@ input[type="radio"] {
 .contacts {
   width: 561px;
 }
+
+
+
+
+
+/*==================================== CATALOG.HTML ======================================*/
+
+/*=============== HEADER =================*/
+
+.inner-header {
+  margin-bottom: 45px;
+  padding-top: 40px;
+}
+
+.navigation-list--padding {
+  padding-bottom: 55px;
+}
+
+
+
+/*=============== MAIN =================*/
+
+.title-catalog h1 {
+  margin: 0;
+  margin-left: 60px;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 47px;
+  line-height: 120%;
+  font-weight: 700;
+  color: #000000;
+}
+
+.breadcrumbs {
+  margin-top: 25px;
+}
+
+.breadcrumbs-list {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  margin-left: 60px;
+  padding: 0;
+  list-style: none;
+}
+
+.inner-wrapper {
+  display: flex;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+
+/*=============== FILTER =================*/
+
+
+.filter {
+  width: 468px;
+  background-image: linear-gradient(to bottom, #dbdbdb 69px, #efefef 19px);
+}
+
+.filter-wrapper {
+  width: 328px;
+  margin: 0;
+  margin-left: auto;
+  padding-left: 60px;
+  padding-right: 68px;
+  box-sizing: border-box;
+}
+
+.filter-title {
+  margin: 0;
+  padding: 25px 0;
+  font-family: "Gilroy ExtraBold", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.filter-cost {
+  margin-top: 70px;
+  border-top: 2px solid #000000;
+  box-sizing: border-box;
+}
+
+.filter-name {
+  margin: 0;
+  padding: 15px 0;
+  font-family: "Gilroy ExtraBold", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 700;
+  color: #000000;
+  box-sizing: border-box;
+}
+
+.range-controls {
+  margin-top: 20px;
+}
+
+.filter-color {
+  margin-top: 40px;
+  border-top: 2px solid #000000;
+}
+
+.filter-color-list {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  margin-top: 15px;
+  padding: 0;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  align-content: space-between;
+  list-style: none;
+}
+
+.filter-color-item {
+  width: 100%;
+}
+
+.filter-bluetooth {
+  margin-top: 42px;
+  border-top: 2px solid #000000;
+}
+
+.filter-bluetooth-list {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  margin-top: 15px;
+  padding: 0;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  align-content: space-between;
+  list-style: none;
+}
+
+.filter-bluetooth-item {
+  width: 100%;
+}
+
+.filter-btn {
+  margin-top: 40px;
+}
+
+
+
+
+/*=============== CONTENT-CATALOG =================*/
+
+
+.content-catalog {
+  width: 972px;
+  background-image: linear-gradient(to bottom, #ebebeb 69px, #ffffff 19px);
+}
+
+.content-catalog-wrapper {
+  width: 760px;
+  margin: 0;
+  margin-left: 72px;
+}
+
+
+
+/*=============== SORTING =================*/
+
+.sorting {
+  display: flex;
+  width: 100%;
+  align-items: baseline;
+}
+
+.sorting-title {
+  margin: 0;
+  padding: 25px 0;
+  font-family: "Gilroy ExtraBold", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.sorting-list {
+  display: flex;
+  width: 285px;
+  margin: 0;
+  margin-left: 56px;
+  margin-right: auto;
+  padding: 0;
+  list-style: none;
+}
+
+.sorting-sign {
+  display: flex;
+  width: 65px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+
+/*=============== SHOP-ITEMS =================*/
+
+.shop-items {
+  margin: 0;
+  margin-top: 70px;
+  margin-bottom: 43px;
+}
+
+.shop-items-list {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  align-content: space-between;
+  list-style: none;
+}
+
+.shop-items-list li {
+  position: relative;
+  width: 360px;
+  margin: 0;
+  margin-right: 40px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.shop-items-list li:nth-child(2n) {
+  margin-right: 0;
+}
+.shop-items-list li:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}
+
+.shop-items-list li:hover .items-add {
+  display: flex;
+}
+
+.items-foto img {
+  display: block;
+}
+
+.items-description {
+  display: flex;
+  width: 100%;
+  margin-top: 35px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.items-name {
+  width: 255px;
+}
+
+.items-name h2 {
+  margin: 0;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 700;
+  color: #000000;
+}
+
+.items-price {
+  margin: 0;
+  font-family: "Gilroy Light", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 400;
+  font-style: normal;
+  color: #464646;
+}
+
+.items-add {
+  position: absolute;
+  top: 0;
+  display: none;
+  width: 360px;
+  height: 380px;
+  flex-wrap: wrap;
+  align-content: center;
+  background: rgba(243, 243, 243, 0.7);
+}
+
+.items-add a {
+  width: 202px;
+  margin: auto;
+}
+
+
+
+
+/*=============== PAGINATOR =================*/
+
+
+.pagination {
+  margin-bottom: 75px;
+}
+
+.pagination-list {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 25px 30px;
+  background: #ebebeb;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.pagination-item {
+  margin: auto;
+}
+
+.pagination-item--prev {
+  margin-right: 235px;
+}
+
+.pagination-item--next {
+  margin-left: 235px;
+}
+
+
+
