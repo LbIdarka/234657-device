@@ -16,18 +16,20 @@
           <section class="user-menu">
             <section class="search">
               <form method="get">
-                <label for="search-field">Поиск по сайту</label>
-                <input type="search" id="search-field" name="search" placeholder="Поиск по сайту">
-                <input type="submit" value="найти">
+                <div class="input-wrapper">
+                  <label for="search-field">Поиск по сайту</label>
+                  <input type="search" id="search-field" name="search" placeholder="Поиск по сайту">
+                  <button class="search-btn" type="submit">Найти</button>
+                </div>
               </form>
             </section>
             <section class="login">
               <div class="login-enter">
-                <a href="#">Войти</a>
+                <a class="login-enter-link" href="#">Войти</a>
               </div>
               <div class="login-info  login-info--hidden">
-                <a href="#">Валентин Петухов</a>
-                <a href="#">Выйти</a>
+                <a class="login-info-username" href="#">Валентин Петухов</a>
+                <a class="login-info-exit" href="#">Выйти</a>
               </div>
             </section>
             <section class="cart">
@@ -44,7 +46,7 @@
           <nav class="main-navigation">
             <ul class="navigation-list">
               <li class="navigation-item  navigation-item--submenu">
-                <a href="#">Каталог товаров</a>
+                <a class="navigation-item--plus" href="#">Каталог товаров</a>
                 <ul class="navigation-sublist">
                   <li class="sublist-item">
                     <a href="#">Виртуальная реальность</a>
@@ -88,54 +90,61 @@
               <img src="img/slider-1.png" width="384" height="486" alt="Палка для селфи">
             </div>
             <div class="slide-description">
-              <b class="slide-title">Делай селфи, как Бен Стиллер!</b>
+              <b class="slide-title">Делай селфи,<br> как Бен Стиллер!</b>
               <p class="slide-text">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
-              <a href="" class="btn">Подробнее</a>
+              <a href="#" class="btn">Подробнее</a>
               <ul class="features-list">
-                <li>
+                <li class="features-item">
                   <i>8,5 м</i>
                   <p> Длина палки</p>
                 </li>
-                <li>
+                <li class="features-item">
                   <i>5 кг</i>
                   <p>Вес палки</p>
                 </li>
-                <li>
+                <li class="features-item">
                   <i>Карбон</i>
                   <p>Материал</p>
                 </li>
               </ul>
             </div>
           </div>
-          <!--<div class="slide">
+          <div class="slide">
+            <div class="slider-foto">
+              <img src="img/slider-2.png" width="345" height="485" alt="Фитнес-браслет">
+            </div>
             <div class="slide-description">
-              <b class="slide-title">Худеем правильно!</b>
+              <b class="slide-title">Худеем<br> правильно!</b>
               <p class="slide-text">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
-              <a href="" class="btn">Подробнее</a>
+              <a href="#" class="btn">Подробнее</a>
               <ul class="features-list">
-                <li>
-                  <p><i>48 часов</i> Без подзарядки</p>
+                <li class="features-item">
+                  <i>48 часов</i>
+                  <p>Без подзарядки</p>
                 </li>
               </ul>
             </div>
-            <img src="img/slider-2.png" width="345" height="485" alt="Фитнес-браслет">
           </div>
           <div class="slide">
+            <div class="slider-foto">
+              <img src="img/slider-3.png" width="526" height="334" alt="Квадрокоптер">
+            </div>
             <div class="slide-description">
               <b class="slide-title">Порхает как бабочка, жалит как пчела!</b>
               <p class="slide-text">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
-              <a href="" class="btn">Подробнее</a>
+              <a href="#" class="btn">Подробнее</a>
               <ul class="features-list">
-                <li>
-                  <p><i>800 м</i> Дальность полета</p>
+                <li class="features-item">
+                  <i>800 м</i>
+                  <p>Дальность полета</p>
                 </li>
-                <li>
-                  <p><i>50 м</i> Радиус поражения</p>
+                <li class="features-item">
+                  <i>50 м</i>
+                  <p>Радиус поражения</p>
                 </li>
               </ul>
             </div>
-            <img src="img/slider-3.png" width="526" height="334" alt="Квадрокоптер">
-          </div>-->
+          </div>
         </div>
       </section>
     </header>
@@ -155,7 +164,7 @@
               <div class="wrapper-img">
                 <img src="img/popular-2.png" width="86" height="117" alt="Моноподы для селфи">
               </div>
-              <p>Моноподы для селфи</p>
+              <p>Моноподы<br> для селфи</p>
             </a>
           </li>
           <li class="catalog-item">
@@ -214,14 +223,14 @@
                 <b class="service-features-title">Доставка</b>
                 <p class="service-features-description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш на этаж!</p>
               </section>
-              <!--<section class="service-features">
+              <section class="service-features">
                 <b class="service-features-title">Гарантия</b>
-                <p class="service-features-description">Если из-за возгарания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
+                <p class="service-features-description">Если из-за возгарания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый.<br> Товар, не дом, конечно же.</p>
               </section>
               <section class="service-features">
                 <b class="service-features-title">Кредит</b>
                 <p class="service-features-description">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
-              </section>-->
+              </section>
             </div>
           </section>
         </div>
@@ -229,42 +238,42 @@
       <section class="brands container">
         <ul class="brands-list">
           <li class="brands-item">
-            <a class="brands-link" href="#">
-              <img src="img/logo-1.png" width="260" height="100" alt="dji">
+            <a class="brands-link" href="#">dji
+              <img class="brands--dji" src="img/logo-1.png" width="260" height="100" alt="dji">
             </a>
           </li>
           <li class="brands-item">
-            <a class="brands-link" href="#">
-              <img src="img/logo-2.png" width="260" height="100"  alt="Adgets">
+            <a class="brands-link" href="#">Adgets
+              <img class="brands--Adgets" src="img/logo-2.png" width="260" height="100"  alt="Adgets">
             </a>
           </li>
           <li class="brands-item">
-            <a class="brands-link" href="#">
-              <img src="img/logo-3.png" width="260" height="100"  alt="GoPro">
+            <a class="brands-link" href="#">GoPro
+              <img class="brands--GoPro" src="img/logo-3.png" width="260" height="100"  alt="GoPro">
             </a>
           </li>
           <li class="brands-item">
-            <a class="brands-link" href="#">
-              <img src="img/logo-4.png" width="260" height="100"  alt="Vive">
+            <a class="brands-link" href="#">Vive
+              <img class="brands--Vive" src="img/logo-4.png" width="260" height="100"  alt="Vive">
             </a>
           </li>
         </ul>
       </section>
       <div class="info-block container">
         <section class="about-us">
-          <h2>О нас</h2>
-          <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
-          <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
-          <ul>
-            <li>Деловые Линии</li>
-            <li>Автотрейдинг</li>
-            <li>ЖелДорЭкспедиция</li>
+          <p class="info-block-title">О нас</p>
+          <p class="info-block-text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+          <p class="info-block-text">Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
+          <ul class="transport-list">
+            <li class="transport-item">Деловые Линии</li>
+            <li class="transport-item">Автотрейдинг</li>
+            <li class="transport-item">ЖелДорЭкспедиция</li>
           </ul>
           <a href="#" class="btn">Подробнее о нас</a>
         </section>
         <section class="contacts">
-          <h2>Контакты</h2>
-          <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
+          <p class="info-block-title">Контакты</p>
+          <p class="info-block-text">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
           <div class="map">
             <img src="img/map.png" width="560" height="222" alt="карта">
           </div>
@@ -276,7 +285,7 @@
       <div class="footer-wrapper container">
         <section class="user-menu-footer">
           <section class="logo">
-            <a class="logo-link">Device</a>
+            <a class="logo-link  logo-link--color">Device</a>
           </section>
           <section class="user-cart">
             <ul class="user-cart-list">
@@ -313,18 +322,18 @@
         </section>
         <section class="social-footer">
           <ul class="social-footer-list">
-            <li>
-              <a href="#" class="btn-social">Фэйсбук</a>
+            <li class="social-footer-item">
+              <a href="#" class="btn-social btn-social-fb">Фэйсбук</a>
             </li>
-            <li>
-              <a href="#" class="btn-social">Инстаграм</a>
+            <li class="social-footer-item">
+              <a href="#" class="btn-social btn-social-inst">Инстаграм</a>
             </li>
-            <li>
-              <a href="#" class="btn-social">Твиттер</a>
+            <li class="social-footer-item">
+              <a href="#" class="btn-social btn-social-tw">Твиттер</a>
             </li>
           </ul>
           <div class="html-academy">
-            <a href="https://htmlacademy.ru/intensive/htmlcss">
+            <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru
               <img src="img/htmlacademy.png" width="27" height="34" alt="HTML Academy">
             </a>
           </div>

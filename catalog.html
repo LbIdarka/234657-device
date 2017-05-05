@@ -6,25 +6,28 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="inner-header container">
+    <header class="main-header container">
       <section class="main-menu">
         <section class="logo">
           <a href="index.html" class="logo-link">Device</a>
         </section>
         <section class="user-menu">
           <section class="search">
-            <form method="get">
-              <label for="search-field">Поиск по сайту</label>
-              <input type="search" id="search-field" name="search" placeholder="Поиск по сайту">
-            </form>
-          </section>
+              <form method="get">
+                <div class="input-wrapper">
+                  <label for="search-field">Поиск по сайту</label>
+                  <input type="search" id="search-field" name="search" placeholder="Поиск по сайту">
+                  <button class="search-btn" type="submit">Найти</button>
+                </div>
+              </form>
+            </section>
           <section class="login">
             <div class="login-enter  login-enter--hidden">
-              <a href="#">Войти</a>
+              <a class="login-enter-link" href="#">Войти</a>
             </div>
             <div class="login-info">
-              <a href="#">Валентин Петухов</a>
-              <a href="#">Выйти</a>
+              <a class="login-info-username" href="#">Валентин Петухов</a>
+              <a class="login-info-exit" href="#">Выйти</a>
             </div>
           </section>
           <section class="cart">
@@ -39,9 +42,9 @@
           </section>
         </section>
         <nav class="main-navigation">
-            <ul class="navigation-list  navigation-list--padding">
+            <ul class="navigation-list">
               <li class="navigation-item  navigation-item--submenu">
-                <a href="#">Каталог товаров</a>
+                <a class="navigation-item--plus" href="#">Каталог товаров</a>
                 <ul class="navigation-sublist">
                   <li class="sublist-item">
                     <a href="#">Виртуальная реальность</a>
@@ -99,9 +102,10 @@
                 <p class="filter-name">Стоимость</p>
                 <div class="range-controls">
                   <div class="scale">
-                    <div class="toggle-min"></div>
-                    <div class="toggle-max"></div>
+                    <div class="bar"></div>
                   </div>
+                  <div class="toggle toggle-min"></div>
+                  <div class="toggle toggle-max"></div>
                 </div>
                 <div class="price-controls">
                   <label for="min-price-field">от</label>
@@ -143,7 +147,7 @@
                     <label for="yes-field">Есть</label>
                   </li>
                   <li class="filter-bluetooth-item">
-                    <input type="radio" id="no-field" name="bluethooth" value="Нет" checked>
+                    <input type="radio" id="no-field" name="bluethooth" value="Нет">
                     <label for="no-field">Нет</label>
                   </li>
                 </ul>
@@ -157,28 +161,28 @@
             <div class="sorting">
               <b class="sorting-title">Сортировка:</b>
               <ul class="sorting-list">
-                <li>
-                  <a href="#">По цене</a>
+                <li class="sorting-item">
+                  <a href="#" class="sorting-link active">По цене</a>
                 </li>
-                <li>
+                <li class="sorting-item">
                   <a href="#">По типу</a>
                 </li>
-                <li>
+                <li class="sorting-item">
                   <a href="#">По популярности</a>
                 </li>
               </ul>
               <ul class="sorting-sign">
-                <li>
-                  <a href="#">По возрастанию</a>
+                <li class="sign-item">
+                  <a class="sign-link sign-up" href="#">По возрастанию</a>
                 </li>
-                <li>
-                  <a href="#">По убыванию</a>
+                <li class="sign-item">
+                  <a class="sign-link sign-down active" href="#">По убыванию</a>
                 </li>
               </ul>
             </div>
             <section class="shop-items">
               <ul class="shop-items-list">
-                <li>
+                <li class="shop-items-article">
                   <div class="items-foto">
                     <img src="img/item-1.jpg" width="360" height="380" alt="Любительская селфи-палка">
                   </div>
@@ -191,7 +195,7 @@
                       <a href="#" class="items-comparison">Добавить к сравнению</a>
                   </div>
                 </li>
-                <li>
+                <li class="shop-items-article">
                   <div class="items-foto">
                     <img src="img/item-2.jpg" width="360" height="380"  alt="Профессиональная селфи-палка ">
                   </div>
@@ -204,7 +208,7 @@
                     <a href="#" class="items-comparison">Добавить к сравнению</a>
                   </div>
                 </li>
-                <li>
+                <li class="shop-items-article">
                   <div class="items-foto">
                     <img src="img/item-3.jpg" width="360" height="380"  alt="Непотопляемая селфи-палка">
                   </div>
@@ -217,7 +221,7 @@
                     <a href="#" class="items-comparison">Добавить к сравнению</a>
                   </div>
                 </li>
-                <li>
+                <li class="shop-items-article shop-items-article--new">
                   <div class="items-foto">
                     <img src="img/item-4.jpg" width="360" height="380"  alt="Селфи-палка «Следуй за мной»">
                   </div>
@@ -235,19 +239,19 @@
             <div class="pagination">
               <ul class="pagination-list">
                 <li class="pagination-item  pagination-item--prev">
-                  <a href="#">Назад</a>
+                  <a class="pagination-link active" href="#">Назад</a>
                 </li>
                 <li class="pagination-item">
-                  <a>1</a>
+                  <a class="pagination-link active">1</a>
                 </li>
                 <li class="pagination-item">
-                  <a href="#">2</a>
+                  <a class="pagination-link" href="#">2</a>
                 </li>
                 <li class="pagination-item">
-                  <a href="#">3</a>
+                  <a class="pagination-link" href="#">3</a>
                 </li>
                 <li class="pagination-item  pagination-item--next">
-                  <a href="#">Вперед</a>
+                  <a class="pagination-link active" href="#">Вперед</a>
                 </li>
               </ul>
             </div>
@@ -259,7 +263,7 @@
       <div class="footer-wrapper container">
         <section class="user-menu-footer">
           <section class="logo">
-            <a class="logo-link">Device</a>
+            <a href="index.html" class="logo-link  logo-link--color">Device</a>
           </section>
           <section class="user-cart">
             <ul class="user-cart-list">
@@ -296,18 +300,18 @@
         </section>
         <section class="social-footer">
           <ul class="social-footer-list">
-            <li>
-              <a href="#" class="btn-social">Фэйсбук</a>
+            <li class="social-footer-item">
+              <a href="#" class="btn-social btn-social-fb">Фэйсбук</a>
             </li>
-            <li>
-              <a href="#" class="btn-social">Инстаграм</a>
+            <li class="social-footer-item">
+              <a href="#" class="btn-social btn-social-inst">Инстаграм</a>
             </li>
-            <li>
-              <a href="#" class="btn-social">Твиттер</a>
+            <li class="social-footer-item">
+              <a href="#" class="btn-social btn-social-tw">Твиттер</a>
             </li>
           </ul>
           <div class="html-academy">
-            <a href="https://htmlacademy.ru/intensive/htmlcss">
+            <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru
               <img src="img/htmlacademy.png" width="27" height="34" alt="HTML Academy">
             </a>
           </div>
