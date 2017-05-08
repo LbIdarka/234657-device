@@ -201,7 +201,8 @@ border-bottom:2px solid #000000;
 }
 
 .search input[type="search"]:focus~.search-btn,
-.search-btn:focus {
+.search-btn:focus,
+.search-btn:active {
   display: inline-block;
   width: 85px;
   margin-left: -4px;
@@ -221,8 +222,8 @@ border-bottom:2px solid #000000;
   border-bottom:2px solid #000000;
 }
 
-.search-btn:active {
-  display: inline-block;
+.search input[type="search"]~.search-btn:active {
+  /*display: inline-block;*/
   color: rgba(255, 255, 255, 0.3);
   background: #000000;
 }
@@ -264,7 +265,7 @@ border-bottom:2px solid #000000;
   text-overflow: ellipsis;
 }
 
-.login-enter a::before
+.login-enter a::before,
 .login-info-username::before {
   content: "";
   position: absolute;
@@ -276,12 +277,16 @@ border-bottom:2px solid #000000;
 }
 
 .login-enter a:hover,
-.login-info-username:hover {
+.login-enter a:hover::before,
+.login-info-username:hover,
+.login-info-username:hover::before {
   opacity: 0.6;
 }
 
-.login-enter-link:active,
-.login-info-username:active {
+.login-enter a:active,
+.login-enter a:active::before,
+.login-info-username:active,
+.login-info-username:active::before {
   opacity: 0.3;
 }
 
@@ -540,6 +545,10 @@ border-bottom:2px solid #000000;
   background: #ffffff;
   box-sizing: border-box;
   cursor: pointer;
+}
+
+.slider-controls label:hover {
+  border: 3px solid rgba(0, 0, 0, 0.4);
 }
 
 #btn-1:checked~.slider-controls label[for=btn-1],
@@ -1357,6 +1366,7 @@ text-decoration:none;
 
 .map {
   width: 100%;
+  cursor: pointer;
 }
 
 .map::before {
