@@ -277,7 +277,7 @@
           <div class="map">
             <img src="img/map.png" width="560" height="222" alt="карта">
           </div>
-          <a href="#" class="btn">Напишите нам</a>
+          <a href="popup.html" class="btn">Напишите нам</a>
         </section>
       </div>
     </main>
@@ -349,11 +349,13 @@
         </div>
         <div class="half-width">
           <label for="field-email">Ваш e-mail:</label>
-          <input type="text" name="email-post" id="field-email" placeholder="Для отправки ответа">
+          <input type="email" name="email-post" id="field-email" placeholder="Для отправки ответа">
         </div>
-        <label for="field-text">Текст письма:</label>
-        <textarea name="text-post" id="field-text" rows="5" placeholder="В свободной форме"></textarea>
-        <button class="button" type="submit">Отправить</button>
+        <div class="text">
+          <label for="field-text">Текст письма:</label>
+          <textarea name="text-post" id="field-text" rows="5" placeholder="В свободной форме"></textarea>
+        </div>
+        <button class="btn btn-form" type="submit">Отправить</button>
       </form>
       <button type="button" class="close">Закрыть</button>
     </div>

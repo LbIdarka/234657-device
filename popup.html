@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Девайс</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="main-header container">
+      <section class="main-menu">
+        <section class="logo">
+          <a href="index.html" class="logo-link">Device</a>
+        </section>
+        <section class="user-menu">
+          <section class="search">
+              <form method="get">
+                <div class="input-wrapper">
+                  <label for="search-field">Поиск по сайту</label>
+                  <input type="search" id="search-field" name="search" placeholder="Поиск по сайту">
+                  <button class="search-btn" type="submit">Найти</button>
+                </div>
+              </form>
+            </section>
+          <section class="login">
+            <div class="login-enter  login-enter--hidden">
+              <a class="login-enter-link" href="#">Войти</a>
+            </div>
+            <div class="login-info">
+              <a class="login-info-username" href="#">Валентин Петухов</a>
+              <a class="login-info-exit" href="#">Выйти</a>
+            </div>
+          </section>
+          <section class="cart">
+            <ul class="cart-list">
+              <li class="cart-item">
+                <a href="#">Сравнить</a>
+              </li>
+              <li class="cart-item">
+                <a href="#">Корзина</a>
+              </li>
+            </ul>
+          </section>
+        </section>
+        <nav class="main-navigation">
+            <ul class="navigation-list">
+              <li class="navigation-item  navigation-item--submenu">
+                <a class="navigation-item--plus" href="#">Каталог товаров</a>
+                <ul class="navigation-sublist">
+                  <li class="sublist-item">
+                    <a href="#">Виртуальная реальность</a>
+                    <a href="catalog.html">Моноподы для селфи</a>
+                    <a href="#">Экшн-камеры</a>
+                  </li>
+                  <li class="sublist-item">
+                    <a href="#">Фитнес-браслеты</a>
+                    <a href="#">Умные часы</a>
+                  </li>
+                  <li class="sublist-item">
+                    <a href="#">Квадрокоптеры</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="navigation-item">
+                <a href="#">Доставка</a>
+              </li>
+              <li class="navigation-item">
+                <a href="#">Гарантия</a>
+              </li>
+              <li class="navigation-item">
+                <a href="#">Контакты</a>
+              </li>
+            </ul>
+      </section>
+    </header>
+    <main class="contacts-wrapper container">
+      <div class="popup  popup--show">
+      <form class="popup-form" action="#" method="post">
+        <div class="half-width">
+          <label for="field-name">Ваше имя:</label>
+          <input type="text" name="name-post" id="field-name" placeholder="Представьтесь, пожалуйста">
+        </div>
+        <div class="half-width">
+          <label for="field-email">Ваш e-mail:</label>
+          <input type="email" name="email-post" id="field-email" placeholder="Для отправки ответа">
+        </div>
+        <div class="text">
+          <label for="field-text">Текст письма:</label>
+          <textarea name="text-post" id="field-text" rows="5" placeholder="В свободной форме"></textarea>
+        </div>
+        <button class="btn btn-form" type="submit">Отправить</button>
+      </form>
+      <button type="button" class="close">Закрыть</button>
+    </div>
+    </main>
+    <footer class="main-footer">
+      <div class="footer-wrapper container">
+        <section class="user-menu-footer">
+          <section class="logo">
+            <a href="index.html" class="logo-link  logo-link--color">Device</a>
+          </section>
+          <section class="user-cart">
+            <ul class="user-cart-list">
+              <li class="user-cart-item">
+                <a href="#">Войти</a>
+              </li>
+              <li class="user-cart-item">
+                <a href="#">Сравнить</a>
+              </li>
+              <li class="user-cart-item">
+                <a href="#">Корзина</a>
+              </li>
+            </ul>
+          </section>
+        </section>
+        <section class="contacts-footer">
+          <div class="contacts-footer-adress">
+            <p>г. Москва, ул. Строителей, 15 </p>
+          </div>
+          <ul class="contacts-footer-list">
+            <li class="contacts-footer-item">
+              <a href="#">Доставка</a>
+            </li>
+            <li class="contacts-footer-item">
+              <a href="#">Гарантия</a>
+            </li>
+            <li class="contacts-footer-item">
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+          <div class="contacts-footer-phone">
+            <p>Тел.: +7 (495) 495-95-95</p>
+          </div>
+        </section>
+        <section class="social-footer">
+          <ul class="social-footer-list">
+            <li class="social-footer-item">
+              <a href="#" class="btn-social btn-social-fb">Фэйсбук</a>
+            </li>
+            <li class="social-footer-item">
+              <a href="#" class="btn-social btn-social-inst">Инстаграм</a>
+            </li>
+            <li class="social-footer-item">
+              <a href="#" class="btn-social btn-social-tw">Твиттер</a>
+            </li>
+          </ul>
+          <div class="html-academy">
+            <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru
+              <img src="img/htmlacademy.png" width="27" height="34" alt="HTML Academy">
+            </a>
+          </div>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>

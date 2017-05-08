@@ -46,7 +46,7 @@ body {
   min-width: 1440px;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
@@ -102,7 +102,7 @@ input[type="radio"] {
 .logo-link {
   display: block;
   width: 165px;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 48px;
   line-height: 120%;
   font-weight: 800;
@@ -134,7 +134,7 @@ input[type="radio"] {
 .search {
   width: 445px;
   margin-right: auto;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 36px;
   font-weight: 300;
@@ -226,7 +226,7 @@ input[type="radio"] {
 .login-enter-link {
   display: block;
   padding-left: 30px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 36px;
   font-weight: 300;
@@ -265,7 +265,7 @@ input[type="radio"] {
   width: 157px;
   margin-right: auto;
   padding-left: 30px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 36px;
   font-weight: 300;
@@ -281,7 +281,7 @@ input[type="radio"] {
   width: 43px;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 36px;
   font-weight: 300;
@@ -331,7 +331,7 @@ input[type="radio"] {
   position: relative;
   display: block;
   padding-left: 25px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 36px;
   font-weight: 300;
@@ -401,7 +401,7 @@ input[type="radio"] {
 .navigation-item a {
   display: block;
   padding: 10px 0;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 18px;
   line-height: 120%;
   font-weight: 800;
@@ -479,7 +479,7 @@ input[type="radio"] {
   display: block;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 36px;
   font-weight: 300;
@@ -579,7 +579,7 @@ input[type="radio"] {
   display: block;
   margin: 0;
   padding-top: 40px;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 47px;
   line-height: 120%;
   font-weight: 800;
@@ -599,7 +599,7 @@ input[type="radio"] {
 .slide-text {
   margin: 20px 0 38px;
   padding-right: 22px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
@@ -610,7 +610,7 @@ input[type="radio"] {
   display: block;
   width: 220px;
   padding: 10px;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 18px;
   line-height: 120%;
   font-weight: 800;
@@ -644,7 +644,7 @@ input[type="radio"] {
   display: inline-block;
   max-width: 155px;
   margin-right: 82px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
@@ -657,7 +657,7 @@ input[type="radio"] {
 
 .features-item i {
   margin: 0;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 36px;
   line-height: 120%;
   font-weight: 300;
@@ -732,7 +732,7 @@ input[type="radio"] {
   position: relative;
   display: block;
   padding-left: 25px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 36px;
   font-weight: 300;
@@ -801,7 +801,7 @@ input[type="radio"] {
 .contacts-footer-adress,
 .contacts-footer-phone {
   width: 210px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
@@ -831,7 +831,7 @@ input[type="radio"] {
 .contacts-footer-item a {
   display: block;
   margin: 0;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 18px;
   line-height: 120%;
   font-weight: 800;
@@ -971,7 +971,7 @@ input[type="radio"] {
 .catalog-link {
   display: block;
   margin: 0;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 18px;
   line-height: 120%;
   font-weight: 800;
@@ -1058,7 +1058,7 @@ input[type="radio"] {
   margin: 0;
   margin-bottom: 20px;
   /*padding: 10px 20px;*/
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 18px;
   line-height: 120%;
   font-weight: 800;
@@ -1129,7 +1129,7 @@ input[type="radio"] {
 .service-features-title {
   display: block;
   margin: 0;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 47px;
   line-height: 120%;
   font-weight: 800;
@@ -1141,7 +1141,7 @@ input[type="radio"] {
   margin: 0;
   margin-top: 30px;
   padding-right: 132px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
@@ -1231,7 +1231,7 @@ input[type="radio"] {
   margin: 0;
   margin-bottom: 45px;
   padding-top: 45px;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 47px;
   line-height: 120%;
   font-weight: 800;
@@ -1250,7 +1250,7 @@ input[type="radio"] {
 
 .info-block-text {
   margin: 40px 0;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
@@ -1272,7 +1272,7 @@ input[type="radio"] {
   width: 100%;
   margin: 0;
   padding: 0 37px;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 16px;
   line-height: 40px;
   font-weight: 800;
@@ -1307,7 +1307,7 @@ input[type="radio"] {
   margin: 0;
   margin-top: 45px;
   margin-left: 60px;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 47px;
   line-height: 120%;
   font-weight: 800;
@@ -1338,7 +1338,7 @@ input[type="radio"] {
 .breadcrumbs-item a {
   margin: 0;
   padding-right: 18px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 36px;
   font-weight: 300;
@@ -1383,7 +1383,7 @@ input[type="radio"] {
 .filter-title {
   margin: 0;
   padding: 25px 0;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 16px;
   line-height: 120%;
   font-weight: 800;
@@ -1404,7 +1404,7 @@ input[type="radio"] {
 .filter-name {
   margin: 0;
   padding: 15px 0;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 16px;
   line-height: 120%;
   font-weight: 800;
@@ -1472,7 +1472,7 @@ input[type="radio"] {
 .price-controls input {
   width: 90px;
   height: 14px;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 14px;
   line-height: 122px;
   font-weight: 300;
@@ -1521,7 +1521,7 @@ input[type="checkbox"] {
   margin: 0;
   padding: 0;
   padding-left: 42px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 40px;
   font-weight: 300;
@@ -1592,7 +1592,7 @@ input[type="checkbox"]:checked+label::after {
   margin: 0;
   padding: 0;
   padding-left: 42px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 40px;
   font-weight: 300;
@@ -1674,7 +1674,7 @@ input[type="radio"]:checked+label::after {
   display: block;
   margin: 0;
   padding: 0;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 16px;
   line-height: 120%;
   font-weight: 700;
@@ -1701,7 +1701,7 @@ input[type="radio"]:checked+label::after {
 
 .sorting-item a {
   display: block;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
@@ -1862,7 +1862,7 @@ input[type="radio"]:checked+label::after {
 
 .items-name h2 {
   margin: 0;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 18px;
   line-height: 120%;
   font-weight: 800;
@@ -1871,7 +1871,7 @@ input[type="radio"]:checked+label::after {
 
 .items-price {
   margin: 0;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 16px;
   line-height: 120%;
   font-weight: 300;
@@ -1900,7 +1900,7 @@ input[type="radio"]:checked+label::after {
 .items-comparison {
   width: 100%;
   margin: auto;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 36px;
   font-weight: 300;
@@ -1924,7 +1924,7 @@ input[type="radio"]:checked+label::after {
   right: 28px;
   width: 60px;
   height: 60px;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 14px;
   line-height: 53px;
   font-weight: 800;
@@ -1965,7 +1965,7 @@ input[type="radio"]:checked+label::after {
 
 .pagination-item a {
   display: block;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", "Arial", sans-serif;
   font-size: 16px;
   line-height: 120%;
   font-weight: 800;
@@ -2019,6 +2019,159 @@ input[type="radio"]:checked+label::after {
 
 /*=============== POPUP =================*/
 
-.popup {
+.popup--show {
+  display: block;
+}
+
+.popup{
+  position: fixed;
   display: none;
+  bottom: 18%;
+  left: 17%;
+  width: 960px;
+  margin: 0;
+  padding: 95px 100px;
+  background: #ffffff;
+  box-shadow: -60px 0px 90px -60px rgba(0, 0, 0, 0.75),
+              60px 0px 90px -60px rgba(0, 0, 0, 0.75),
+              0 10px 30px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.popup-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.half-width {
+  display: flex;
+  width: 360px;
+  flex-wrap: wrap;
+}
+
+.half-width:first-of-type {
+  margin-right: 40px;
+}
+
+.popup-form label {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 12px;
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 800;
+  color: #000000;
+}
+
+.half-width input {
+  width: 100%;
+  padding: 15px 20px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000000;
+  background: #f2f2f2;
+  border: none;
+  box-sizing: border-box;
+}
+
+.text {
+  display: flex;
+  width: 100%;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  flex-wrap: wrap;
+}
+
+.text textarea {
+  width: 100%;
+  min-height: 155px;
+  padding: 15px 20px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000000;
+  background: #f2f2f2;
+  border: none;
+  box-sizing: border-box;
+}
+
+.half-width input:hover,
+.text textarea:hover {
+  background: #eaeaea;
+}
+
+.half-width input:focus,
+.text textarea:focus {
+  background: #ffffff;
+  border: 2px solid #f7e296;
+}
+
+input:invalid {
+  background: #f6dada;
+  border: none;
+}
+
+.btn-form {
+  width: 200px;
+  background-image: linear-gradient(to bottom, #ffffff 16px, #f0c52e 16px, #f0c52e 22px, #ffffff 22px);
+  border: none;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 55px;
+  height: 55px;
+  font-size: 0;
+  background: #f0c52e;
+  opacity: 0.5;
+  border-radius: 50%;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.close::before {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 27px;
+  width: 2px;
+  height: 30px;
+  background: #ffffff;
+  transform: rotate(45deg);
+}
+
+.close::after{
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 27px;
+  width: 2px;
+  height: 30px;
+  background: #ffffff;
+  transform: rotate(-45deg);
+}
+
+.close:hover,
+.close:active {
+  background: #f0c52e;
+  opacity: 1;
+}
+
+.close:active::before,
+.close:active::after {
+  opacity: 0.3;
+}
+
+.contacts-wrapper .popup {
+  position: relative;
+  display: block;
+  margin: 100px auto;
+  left: 0;
 }
