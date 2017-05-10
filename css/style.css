@@ -1392,11 +1392,15 @@ text-decoration:none;
   cursor: pointer;
 }
 
+.map a{
+  display: block;
+}
+
 .map img {
   display:block;
 }
 
-.map::before {
+/*.map::before {
   content:"";
   position: absolute;
   display: none;
@@ -1410,7 +1414,7 @@ text-decoration:none;
 
 .map:hover::before {
   display: block;
-}
+}*/
 
 .btn-popup {
   width: 260px;
@@ -2159,18 +2163,43 @@ input[type="radio"]:checked+label::after {
 
 /*=============== POPUP =================*/
 
-.popup--show {
-  display: block;
+@keyframes bounce {
+  0%   {
+    transform: translateY(-2000px);
+  }
+  70%  {
+    transform: translateY(30px);
+  }
+  90%  {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
 }
 
 .popup{
   position: fixed;
   display: none;
-  bottom: 18%;
-  left: 17%;
+  top: 50%;
+  left: 50%;
   width: 960px;
   margin: 0;
-  padding: 95px 100px;
+  margin-top: -270px;
+  margin-left: -480px;
+  padding: 85px 100px;
   background: #ffffff;
   box-shadow: -60px 0px 90px -60px rgba(0, 0, 0, 0.75),
               60px 0px 90px -60px rgba(0, 0, 0, 0.75),
@@ -2259,7 +2288,9 @@ input[type="radio"]:checked+label::after {
   border: 2px solid #f7e296;
 }
 
-input:invalid {
+input:invalid,
+.popup-error input,
+.popup-error textarea {
   background: #f6dada;
   border: none;
 }
@@ -2326,4 +2357,32 @@ input:invalid {
   display: block;
   margin: 100px auto;
   left: 0;
+}
+
+.popup-map {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: none;
+  width: 960px;
+  height: 559px;
+  margin-top: -270px;
+  margin-left: -480px;
+  background: #eaeaea url("../img/map-big.png") no-repeat;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.popup--show,
+.popup-map--show {
+  display: block;
+  animation: bounce 0.6s;
+}
+
+.popup-error {
+  animation: shake 0.6s;
+}
+
+.popup-map .map-wrapper {
+  width: 100%;
+  height: 559px;
 }
