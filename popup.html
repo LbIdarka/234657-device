@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header container">
@@ -70,27 +71,28 @@
                 <a href="#">Контакты</a>
               </li>
             </ul>
+        </nav>
       </section>
     </header>
     <main class="contacts-wrapper container">
       <div class="popup  popup--show">
-      <form class="popup-form" action="#" method="post">
-        <div class="half-width">
-          <label for="field-name">Ваше имя:</label>
-          <input type="text" name="name-post" id="field-name" placeholder="Представьтесь, пожалуйста">
-        </div>
-        <div class="half-width">
-          <label for="field-email">Ваш e-mail:</label>
-          <input type="email" name="email-post" id="field-email" placeholder="Для отправки ответа">
-        </div>
-        <div class="text">
-          <label for="field-text">Текст письма:</label>
-          <textarea name="text-post" id="field-text" rows="5" placeholder="В свободной форме"></textarea>
-        </div>
-        <button class="btn btn-form" type="submit">Отправить</button>
-      </form>
-      <button type="button" class="close">Закрыть</button>
-    </div>
+        <form class="popup-form" action="#" method="post">
+          <div class="half-width">
+            <label for="field-name">Ваше имя:</label>
+            <input type="text" name="name-post" id="field-name" placeholder="Представьтесь, пожалуйста">
+          </div>
+          <div class="half-width">
+            <label for="field-email">Ваш e-mail:</label>
+            <input type="email" name="email-post" id="field-email" placeholder="Для отправки ответа">
+          </div>
+          <div class="text">
+            <label for="field-text">Текст письма:</label>
+            <textarea name="text-post" id="field-text" rows="5" placeholder="В свободной форме"></textarea>
+          </div>
+          <button class="btn btn-form" type="submit">Отправить</button>
+        </form>
+        <button type="button" class="close">Закрыть</button>
+      </div>
     </main>
     <footer class="main-footer">
       <div class="footer-wrapper container">

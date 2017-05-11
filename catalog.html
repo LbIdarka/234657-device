@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header container">
-      <section class="main-menu  main-menu--footer">
+      <section class="main-menu  main-menu-inner">
         <section class="logo">
           <a href="index.html" class="logo-link">Device</a>
         </section>
@@ -48,7 +49,7 @@
                 <ul class="navigation-sublist">
                   <li class="sublist-item">
                     <a href="#">Виртуальная реальность</a>
-                    <a href="catalog.html">Моноподы для селфи</a>
+                    <a class="active">Моноподы для селфи</a>
                     <a href="#">Экшн-камеры</a>
                   </li>
                   <li class="sublist-item">
@@ -70,6 +71,7 @@
                 <a href="#">Контакты</a>
               </li>
             </ul>
+        </nav>
       </section>
     </header>
     <main>
@@ -80,14 +82,14 @@
         <ul class="breadcrumbs-list">
           <li class="breadcrumbs-item">
             <a href="index.html">Главная</a>
-            <span>&#8250</span>
+            <span>&#8250;</span>
           </li>
           <li class="breadcrumbs-item">
             <a href="#">Каталог товаров</a>
-            <span>&#8250</span>
+            <span>&#8250;</span>
           </li>
           <li class="breadcrumbs-item">
-            <a>Моноподы для селфи</a>
+            <a class="active">Моноподы для селфи</a>
           </li>
         </ul>
       </div>
@@ -190,9 +192,9 @@
                     <a href="" class="items-name"><h2>Любительская селфи-палка</h2></a>
                     <i class="items-price">500 руб.</i>
                   </div>
-                   <div class="items-add">
-                      <a href="#" class="btn">В корзину</a>
-                      <a href="#" class="items-comparison">Добавить к сравнению</a>
+                  <div class="items-add">
+                    <a href="#" class="btn">В корзину</a>
+                    <a href="#" class="items-comparison">Добавить к сравнению</a>
                   </div>
                 </li>
                 <li class="shop-items-article">
@@ -251,7 +253,7 @@
                   <a class="pagination-link" href="#">3</a>
                 </li>
                 <li class="pagination-item  pagination-item--next">
-                  <a class="pagination-link active" href="#">Вперед</a>
+                  <a class="pagination-link" href="#">Вперед</a>
                 </li>
               </ul>
             </div>
