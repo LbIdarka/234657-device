@@ -1541,20 +1541,12 @@ input[type="radio"] {
 
 .catalog-section {
   position: relative;
-  background: -webkit-linear-gradient(top, #ebebeb 72px, rgba(255, 255, 255, 0) 72px),
-              -webkit-linear-gradient(left, #efefef 32%, rgba(255, 255, 255, 0) 32%);
-  background: linear-gradient(to bottom, #ebebeb 72px, rgba(255, 255, 255, 0) 72px),
-              linear-gradient(to right, #efefef 32%, rgba(255, 255, 255, 0) 32%);
-}
-
-.catalog-section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 32%;
-  height: 72px;
-  background: #dbdbdb;
+  background: -webkit-linear-gradient(top, #dbdbdb 72px, #efefef 72px),
+              -webkit-linear-gradient(top, #ebebeb 72px, rgba(255, 255, 255, 0) 72px);
+  background: linear-gradient(to bottom, #dbdbdb 72px, #efefef 72px),
+              linear-gradient(to bottom, #ebebeb 72px, rgba(255, 255, 255, 0) 72px);
+  background-size: 32% 100%, 100% 100%;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .inner-wrapper {
